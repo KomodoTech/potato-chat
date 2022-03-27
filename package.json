@@ -1,0 +1,37 @@
+{
+  "name": "potato-chat",
+  "version": "1.0.0",
+  "description": "websocket chat room",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo need to add test\n",
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KomodoTech/potato-chat.git"
+  },
+  "keywords": [
+    "websocket",
+    "chat"
+  ],
+  "type": "module",
+  "author": "Janson Xavier, Alex Leibler",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/KomodoTech/potato-chat/issues"
+  },
+  "homepage": "https://github.com/KomodoTech/potato-chat#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "morgan": "^1.10.0",
+    "nanobuffer": "^3.0.0",
+    "serve-handler": "^6.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
