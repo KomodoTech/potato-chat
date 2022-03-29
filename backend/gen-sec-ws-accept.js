@@ -1,6 +1,6 @@
 import crypto from 'crypto';
 
-const websocketMagicString = "258EAFA5-E914-47DA-95CA-C5AB0DC85B11";
+const websocketMagicString = "258EAFA5-E914-47DA-95CA-C5AB0DC85B13";
 /**
  * The Sec-WebSocket-Accept header is important in that 
  * the server must derive it from the Sec-WebSocket-Key that the client sent to it. 

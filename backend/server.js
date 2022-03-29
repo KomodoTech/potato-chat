@@ -57,7 +57,7 @@ server.on('upgrade', (req, socket) => {
   // to make sure everyone agrees we're going to be working with websockets
   const clientKey = req.headers['sec-websocket-key'];
   const acceptKey = genSecWSAccept(clientKey);
-  // console.log('acceptKey:', acceptKey);
+  console.log('acceptKey:', acceptKey);
   /**
    * array of http headers that we want to send to browser
    * to complete the websocket handshake
