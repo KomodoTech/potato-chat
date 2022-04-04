@@ -17,4 +17,4 @@ export default function objToResponse(obj) {
 
   buffer.write(string, payloadOffset);
   return buffer;
-};
+}
